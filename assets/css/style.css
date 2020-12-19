@@ -40,13 +40,19 @@ body {
     font-size: 20px;
 }
 
+.header nav {
+    display: block;
+    margin-top: 25px;
+    float: right;
+}
+
 /* To make the navigation bar links not show as a list */
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-/* ya not too sure, has to do with the links at the top, other than that, no clue */
-.header div ul li {
+/* specifics for line items */
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
